@@ -1,0 +1,23 @@
+# first: get input from user asking for 3 number.
+## Answer: 
+print("input 3 numbers.")
+x = float(input("first number"))
+y = float(input("second number"))
+z = float(input("third number"))
+
+# second: put the input into a list, and print it out.
+## Answer: 
+numList = [x,y,z]
+print(numList)
+
+# third: use the input to caculate the sum
+#  use the first 2 of the number to caculate the add, multiply, divide.
+## Answer: 
+totalSum = sum(numList)
+print("Total sum of the 3 numbers:", totalSum)
+add = x + y
+multiply = x * y 
+divide = x / y
+print("Additon of the 2 numbers:", add)
+print("Multiplication of the 2 numbers:", multiply)
+print("Division of the 2 numbers:", divide)
